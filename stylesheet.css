@@ -1,0 +1,71 @@
+* {
+    background-color: blueviolet;
+    color:violet;
+    border-radius: 25px;
+}
+header {
+    text-align: center;
+    font-size: 2rem;
+    border: 15px solid rgb(224, 148, 212);
+    padding: 50px;
+    margin: 20px;
+    /* background-color:black */
+}
+content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    
+}
+content box {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 24%;
+    border: 15px solid rgb(224, 148, 212);
+    padding: 50px;
+    margin: 20px;
+    background-color: rgb(90, 58, 122);
+}
+box sample {
+    display: inline-table;
+    border: 2px solid rgb(224, 148, 212);
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+    color: #fff;
+    background: rgb(48, 44, 44);
+    font-family: monospace;
+    font-size: larger;
+}
+box h1 {
+    border: 10px solid rgb(224, 148, 212);
+    padding: 20px;
+    margin: 30px;
+    width: 300px;
+    position: relative;
+    margin-top: -90px;
+    text-align: center;
+    background-color: rgb(60, 17, 100);
+
+}
+box {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-
+    out;
+}
+box:hover {
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1);inset : 0 0 15px
+    rgba(232, 102, 236, 1) ;
+}
+box p {
+    display: flex;
+    width: 50%;
+    border: 2px solid rgb(224, 148, 212);
+    padding: 50px;
+    margin: 20px;
+    font-size: larger;
+
+}
